@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Healthcare</string>
+    <string name="title_home">Home</string>
+    <string name="title_user_list">UserList</string>
+    <string name="title_chat_room">ChatRoom</string>
+    <string name="title_setting">MyPage</string>
+</resources>
