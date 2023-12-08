@@ -1,13 +1,13 @@
-package com.example.healthcare.ui.userlist
+package com.example.healthcare.ui.myPage
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class UserListViewModel : ViewModel() {
+class ChatRoomListViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is User list Fragment"
+        value = "This is chatroom Fragment"
     }
     val text: LiveData<String> = _text
 }

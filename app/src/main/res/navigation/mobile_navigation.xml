@@ -13,19 +13,19 @@
 
     <fragment
         android:id="@+id/navigation_user_list"
-        android:name="com.example.healthcare.ui.userlist.UserListFragment"
+        android:name="com.example.healthcare.ui.user.UserListFragment"
         android:label="@string/title_user_list"
         tools:layout="@layout/fragment_user_list" />
 
     <fragment
         android:id="@+id/navigation_chat_room"
-        android:name="com.example.healthcare.ui.setting.SettingFragment"
+        android:name="com.example.healthcare.ui.myPage.MyPageFragment"
         android:label="@string/title_chat_room"
         tools:layout="@layout/fragment_chat_room" />
 
     <fragment
         android:id="@+id/navigation_setting"
-        android:name="com.example.healthcare.ui.setting.SettingFragment"
+        android:name="com.example.healthcare.ui.myPage.MyPageFragment"
         android:label="@string/title_setting"
-        tools:layout="@layout/fragment_setting"/>
+        tools:layout="@layout/fragment_my_page"/>
 </navigation>
